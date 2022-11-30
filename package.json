@@ -1,0 +1,36 @@
+{
+  "name": "logincadastropost",
+  "version": "1.0.0",
+  "description": "Login page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauloricardopg/login.git"
+  },
+  "keywords": [
+    "web",
+    "development"
+  ],
+  "author": "Mateus Schineider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schineidermateus"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "homepage": "https://github.com/pauloricardopg/login#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.4"
+  }
+}
